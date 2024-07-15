@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "arial", "san-serif";
+  background-color: bisque;
+  /* min-height: 2000px; */
+}
+
+.header {
+  background-color: aqua;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.header h1 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 300;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  width: 90%;
+  padding: 3rem;
+  background-color: rgb(121, 141, 31);
+  overflow: auto;
+}
+
+.container .kolom-konten {
+  margin-top: 3rem;
+}
+
+.container .kolom-konten h2 {
+  font-weight: 700;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.container .kolom-konten p {
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+.kolom-menu ul li {
+  background-color: aquamarine;
+  list-style-type: none;
+  padding: 2rem;
+}
+
+.kolom-menu {
+  width: 20%;
+  float: left;
+  padding: 1rem;
+  position: absolute;
+  right: 0;
+}
+
+.kolom-konten {
+  width: 80%;
+  float: left;
+  overflow: auto;
+}
+
+.kolom-konten #konten-1 {
+  padding-top: 100px;
+}
